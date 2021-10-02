@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'country-q.png',
     title: 'Country quiz',
-    info: "This project  is based on sCSS , SASS , and REACT. I started from scratch. It generates an API of the country's name, capital of the country and fl",
+    info: 'This project is based on SCSS , SASS, and REACT. It is built from scratch. It generates an API of the country names, country capitals and flags. This app allows users to guess the name of a country given a capital city or a flag.',
     info2: '',
     url: 'https://country-quiz-synthia.netlify.app/',
     repo: 'https://github.com/bakozetra/country-quiz', // if no repo, the button will not show up
@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'photograph.png',
     title: 'Photograph',
-    info: 'I built this project from scratch. It is built with CSS , SASS , and HTMl5.',
+    info: 'This project is built from scratch. It is built with CSS, SASS, and HTML5. It shows the responsiveness of the website.',
     info2: '',
     url: 'https://front-end-finals.netlify.app/',
     repo: 'https://github.com/bakozetra/front-end-finals', // if no repo, the button will not show up

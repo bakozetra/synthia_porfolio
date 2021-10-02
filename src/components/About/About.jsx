@@ -40,7 +40,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Innovative Front End Developer with 1 years experience building and maintaining responsive websites at Onja bootcamp. Proficient in HTML , CSS , JavaScript ; plus modern libraries and frameworks. Passionate about learning and working with other'}
+                    'Innovative Front End Developer with a year experience building and maintaining responsive websites at Onja boot camp. Proficient in HTML, CSS, JavaScript; plus modern libraries and frameworks. Passionate about learning and working with others.'}
                 </p>
                 <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (
