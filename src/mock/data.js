@@ -30,8 +30,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'country-q.png',
     title: 'Country quiz',
-    info: 'This project is based on SCSS , SASS, and REACT. It is built from scratch. It generates an API of the country names, country capitals and flags. This app allows users to guess the name of a country given a capital city or a flag.',
-    info2: '',
+    info: 'This React application randomizes two types of questions - questions about the name of a given country or capital city and questions about their national flag.',
+    info2:
+      'When the user answer is incorrect, the next button will lead to the result score page which enables the user to try again. But when it is true, the next button will generate a new random question from the API.',
     url: 'https://country-quiz-synthia.netlify.app/',
     repo: 'https://github.com/bakozetra/country-quiz', // if no repo, the button will not show up
   },
@@ -39,8 +40,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'birthday-app.png',
     title: 'Birthday App',
-    info: 'This project is built with CSS and vanilla javascript. It generates an API of people’s birthday dates. This app allows you to add a birthday date  and remove it from this app.',
-    info2: '',
+    info: 'In this project, I worked with HTML, CSS and JavaScript to create a birthday app. The main purpose of this project was to implement CRUD operations.',
+    info2: 'You can sort people according to the most recent birthdays and filter them by name.',
     url: 'https://synthia-birthday-app.netlify.app/',
     repo: 'https://github.com/bakozetra/birthday-app', // if no repo, the button will not show up
   },
@@ -48,7 +49,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'photograph.png',
     title: 'Photograph',
-    info: 'This project is built from scratch. It is built with CSS, SASS, and HTML5. It shows the responsiveness of the website.',
+    info: 'This landing page was our final project in the front-end course. It was built with HTML, CSS, SASS and some vanilla JavaScript for scrolling images. In this project, I did the best I could to make the HTML accessible, well structured and valid. In terms of styling, I followed a Figma design and made it responsive',
     info2: '',
     url: 'https://front-end-finals.netlify.app/',
     repo: 'https://github.com/bakozetra/front-end-finals', // if no repo, the button will not show up
